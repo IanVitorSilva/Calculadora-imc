@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="src/icon.png" type="image/x-icon">
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+
+    <main>
+      <section id="img_container">
+        <img src="https://envision.app/wp-content/uploads/elementor/thumbs/Envision-character-strongman-weights-pm1wta5gq04l4r00hm1048kt1w81ywefwiw6ixwgsk.png" alt="Pessoa fazendo atividade física.">
+      </section>
+      <section id="content_container">
+        <h1 id="content_title">Calculadora - IMC</h1>
+        <div id="border_title"></div>
+
+        <form id="imc_form">
+          <div id="input_container">
+            <label for="peso">Peso em Kg</label>
+            <input id="weight_input" type="number">
+          </div>
+          <div id="input_container">
+            <label for="altura">Altura em cm</label>
+            <input id="height_input" type="number" >
+          </div>
+          <button onclick="checkUserData()">Calcular</button>
+        </form>
+        <aside class="result_container">
+          
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;2023 <a id="footer_link" href="https://ianvitor.github.io/IanPortifolio/" target="_blank">Ian Vitor</a></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
